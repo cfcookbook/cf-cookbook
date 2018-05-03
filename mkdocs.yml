@@ -1,0 +1,30 @@
+site_name: CloudFormation Cookbook
+site_description: 'CloudFormation reference and examples'
+
+pages:
+  - Home: index.md
+  - Custom Resources: cf/custom-resources/index.md
+  - DynamoDB:
+    - DynamoDB Basics: cf/dynamodb/basics.md
+  - About: about.md
+
+theme:
+  name: 'material'
+  language: 'en'
+  custom_dir: theme
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'cloud'    
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
